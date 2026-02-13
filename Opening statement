@@ -1,5 +1,24 @@
 from scratch so this is what i know abouT cuda so far...lets not use AI please ..learn from scratch
-1. in relation to parallel computing and GPU"S 
-2.NVIDIA machines 
-3.GPGPU which are GPUS but used for general purpose tasks
-4.The CUDA programming language is low level or close and it allows the manipulation of these powerful GPU'S
+
+1. in relation to parallel computing and GPU"S
+   2.NVIDIA machines
+   3.GPGPU which are GPUS but used for general purpose tasks
+   4.The CUDA programming language is low level or close and it allows the manipulation of these powerful GPU'S
+
+Having gone through the first chapter of that [CUDA Programming guide](https://docs.nvidia.com/cuda/cuda-programming-guide/index.html) by NVIDIA, I would like to start by saying the theory was mind boggling and the time to cover it was a bit somewhat limited (Not that I complain or anything). There was a mouthful to learn and as someone who was completely new to the field with just an interest in coding, often it could get boring having to sort of force the new terminologies and concepts into my tiny head, lol; but there is pretty much a handful I have managed to grasp. I will just try to highlighlight some of it in form topic heaings below, and then as time progresses and the spirit leading me, I might expand on these topics a bit.
+
+## PROGRAMMING MODEL
+
+1. Heterogenous Systems
+2. GPU Hardware MOdel
+3. GPU Memory
+
+## CUDA PLATFORM
+
+1. Compute Compatibility and Streaming Multiprocessor (SM)
+2. GPU Driver and CUDA Toolkit
+3. PTX (Parallel Threading Execution)
+4. Cubins and Fatbins
+5. JIT (Just-In-Time) Compilation Compartibility
+
+For now, I put aside the theory; Moving on to the practical... _Aluta Continua_ 🤟
