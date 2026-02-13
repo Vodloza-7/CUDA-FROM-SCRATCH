@@ -10,7 +10,7 @@ Welcome to our little corner where we study, learn and master CUDA Programming.
 
 Meet the engineers partaking in this study:
 
-- [Vodloza](@https://github.com/Vodloza-7)
+- [Vodloza](https://github.com/Vodloza-7)
 - [God-FearingCoder01](https://github.com/God-FearingCoder01)
 
 ## Rules of study are as follows:
