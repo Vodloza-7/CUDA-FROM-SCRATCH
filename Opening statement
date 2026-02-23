@@ -22,3 +22,20 @@ Having gone through the first chapter of that [CUDA Programming guide](https://d
 5. JIT (Just-In-Time) Compilation Compartibility
 
 For now, I put aside the theory; Moving on to the practical... _Aluta Continua_ 🤟
+
+Cupy was a great way to introduce things practically!  
+It made me believe for a moment, yeah, I get it.
+
+Two major points I sure couldn't have missed:
+
+1. Use asarray() method of the cupy library when wating to transfer data from the Host to the Device.
+2. Use asnumpy() method of the cupy library still, when wanting to do the opposite of what is stated above.
+   Both these methods would be taking in arguments the arrays to be transfered from one of the two parts of this herogenous system, to the other. As can should be expected, the array to be taken in by the first, must be of that from the cpu, while the opposite is true about the latter array.  
+   Special point also worth mentioning is that, it is advisable to just go ahead and create your data (array) on the Device, instead of creating it on the host, only to just then move it the Device where it is actually going to be manipulated.
+
+FFTs are still a bit unclear to me.
+As someone who doesn't have any data science experience, the numpys and scipys are also a bit new to me, althouh where of better solubiity in the tutorial video.
+
+Last but certainly not least. The `%%timeit` magic command, was and continues to be a very handy tool of sometimes gettting to see real in action the beauty and powerfulness of parallel computing which is offered by the gpu as opposed to the CPU's serial execution.
+
+Aluta Continua my fellow commrad..!
