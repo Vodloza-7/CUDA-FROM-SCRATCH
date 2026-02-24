@@ -39,3 +39,12 @@ As someone who doesn't have any data science experience, the numpys and scipys a
 Last but certainly not least. The `%%timeit` magic command, was and continues to be a very handy tool of sometimes gettting to see real in action the beauty and powerfulness of parallel computing which is offered by the gpu as opposed to the CPU's serial execution.
 
 Aluta Continua my fellow commrad..!
+
+### Oh... our dear precious `%%timeit` magic command😣‼
+
+Rember how I confidently mentioned this "_handy, powerful_" tool that allows for us to see some result that paint us a bit on the picture of on the beauty and powerfulness of parallel computing, turns out there is potentially some downside to using it (this magic command) sometimes.  
+I have said it a bit on the open issue. **The `%%timeit` magic command creates an isolated scope for timing purpose(s).** **Any variables created or modified in the code, underneath it are discarded once the timing is complete.**
+
+This accurately means that when applying the magic command, one should always becareful to not then want to use the **only** modified or created variables under that `%%timeit` command. This may result in wrong results if the program does execute without any runtime errors (like `NameError` haha).
+
+I hate that it's slowly starting to feel and seem like using our beloved `%%timeit` magic command, would afterall prove not to be that advantageous, ay😫.
