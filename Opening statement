@@ -52,6 +52,11 @@ I hate that it's slowly starting to feel and seem like using our beloved `%%time
 With numba:
 
 1. To send data from the **CPU** to the **GPU**, we use cuda's `todevice()` method where we pass to it as an argument, the array/data to be sent over to the GPU from CPU. This method is accesisible through the _dot notation_.
-2. To get back data from the **GPU**, to the **CPU**, we use the `copy_to_host()` method, with _no auguments_ passed to it, which is again made available by the cuda module (accessible therefore through the _dot notation_).  
+2. To get back data from the **GPU**, to the **CPU**, we use the `copy_to_host()` method, with _no auguments_ passed to it, and is accessible therefore through the _dot notation_ on the object Device array object.  
    `Cuda` Module can be made available from the `numba` library from an _import statement_.  
    cupy can still be used on a numba.cuda array to create a Device ready array. **NB: Numba wil still work perfectly fine on the cupy arrays.**
+
+Yah!  
+The struggle is real for sure! But even if that may become the case, I will not cease to bring us good resource matrial from our dear sister Google the internet.  
+Enter: [Numba Python Notes](https://nyu-cds.github.io/python-numba/05-cuda/) to try and ease the pain as we try and make sense of these threads and effective gpu utilization in practice.  
+Aluta Continua..!
