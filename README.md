@@ -30,9 +30,15 @@ Enter: [Google Colab Tips and Tricks](https://blog.gishub.org/google-colab-tips-
 - Faster cell execution
 - Productivity hacks
 
-## 🚀 Git Alias: Lainess == Efficiency
+## 🚀 Git Alias: Laziness == Efficiency
 
 Still on the roll with productivity confessions... let's not forget [Git Alias](https://www.atlassian.com/git/tutorials/git-alias), a piece that's had me see more of `Git ci` instead of `Git commit` and `Git s` (inplace of `Git status`). "_A few keystrokes saved today, a few hundread by next week- it adds up._"
 
 **Before you judge**😎  
 The way I see it: If I can save finger energy on typing, I can use that brainpower for actual CUDA debugging (which, trust me, needs every watt).
+
+## Useful resources
+
+- [Nvidia's CUDA Programming guide](https://docs.nvidia.com/cuda/cuda-programming-guide/index.html)
+- [Tutorial: CUDA Programming in Python using numba and cupy ](https://youtu.be/9bBsvpg-Xlk)
+- [Introduction to Numba](https://nyu-cds.github.io/python-numba/05-cuda/)
