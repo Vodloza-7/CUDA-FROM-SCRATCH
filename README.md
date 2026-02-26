@@ -42,3 +42,4 @@ The way I see it: If I can save finger energy on typing, I can use that brainpow
 - [Nvidia's CUDA Programming guide](https://docs.nvidia.com/cuda/cuda-programming-guide/index.html)
 - [Tutorial: CUDA Programming in Python using numba and cupy ](https://youtu.be/9bBsvpg-Xlk)
 - [Introduction to Numba](https://nyu-cds.github.io/python-numba/05-cuda/)
+- [Introduction to CUDA Python with Numba🔥](https://www.kaggle.com/code/harshwalia/1-introduction-to-cuda-python-with-numba)
